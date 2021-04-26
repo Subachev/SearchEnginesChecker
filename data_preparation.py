@@ -22,7 +22,7 @@ SITES = [
     {"url": "https://mail.ru/", "search_element": "q", "cookie": []},
     {"url": "https://duckduckgo.com/", "search_element": "q", "cookie": []},
     {"url": "https://www.bing.com/", "search_element": "q", "cookie": []},
-    {"url": "h1", "search_element": "q", "cookie": []},
+    {"url": "bad_url", "search_element": "q", "cookie": []},
 ]
 
 cursor = sql_conn.cursor()
